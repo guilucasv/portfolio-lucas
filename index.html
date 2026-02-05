@@ -1,29 +1,58 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html><html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Primeiro Site</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css"> <!-- LINKA O CSS COM O HTML-->
+<title>Meu Primeiro WebSite</title>
 </head>
+
 <body>
-    <section style="text-align: center; border: 2px solid #333; padding: 20px;">
-        <h3 style="color:#1871A3;">Meu Perfil Programador</h3>
+
+    <header class="navbar">
+        <div class="logo"> Meu Projeto </div>
+
+        <nav>
+            <ul>
+                <li><a href="#"> Home </a></li>
+                <li><a href="#"> Sobre Mim </a></li>
+                <li><a href="#"> Projetos </a></li>
+                <li><a href="#"> Contatos </a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <section style="text-align: center; border: 3px solid #1871A3; padding: 20px;">
+        <h2 style="color: coral;">Meu Perfil Programador</h2>
 
         <img src="https://picsum.photos/200"
-            style="width: 150px; border-radius: 50%; border: 3px solid darkcyan;"
-            alt="foto de Perfil">
+        style="width: 150px; border-radius: 50%; border: 3px solid darkcyan"
+        alt="foto de perfil">
 
-        
-        <p style="color:#1e3c4622; font-family: Arial, Helvetica, sans-serif;">
-            Estou aprendendo a criar elementos com <strong>HTML 5</strong>.
+        <p style="color: blue; font-family:Georgia, 'Times New Roman', Times, serif;">
+            Estou aprendendo a estilizar elementos utilizando<strong>HTML 5</strong>
         </p>
 
-        <button style="background-color: darkcyan; color: white; border: none;
+        <button style="background-color: aquamarine; color: black; border: none;
         padding: 10px 20px; border-radius: 5px;">
             Ver Projetos
         </button>
 
     </section>
-    
+
+
+    <main>
+
+        <h2 style="text-align: center; margin-top: 20px;">Minha Galeria</h2>
+
+        <section class="galeria">
+            <img src="/download (3).jfif">
+            <img src="/download (3).jfif">
+            <img src="/download (3).jfif">
+        </section>
+
+    </main>
+
+
 </body>
 </html>
