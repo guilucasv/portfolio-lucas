@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css"> <!-- LINKA O CSS COM O HTML-->
+<title>Meu Primeiro WebSite</title>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo"> Meu Projeto </div>
+
+        <nav>
+            <ul>
+                <li><a href="#"> Home </a></li>
+                <li><a href="#"> Sobre Mim </a></li>
+                <li><a href="#"> Projetos </a></li>
+                <li><a href="#"> Contatos </a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <section style="text-align: center; border: 3px solid #1871A3; padding: 20px;">
+        <h2 style="color: coral;">Meu Perfil Programador</h2>
+
+        <img src="https://picsum.photos/200"
+        style="width: 150px; border-radius: 50%; border: 3px solid darkcyan"
+        alt="foto de perfil">
+
+        <p style="color: blue; font-family:Georgia, 'Times New Roman', Times, serif;">
+            Estou aprendendo a estilizar elementos utilizando<strong>HTML 5</strong>
+        </p>
+
+        <button style="background-color: aquamarine; color: black; border: none;
+        padding: 10px 20px; border-radius: 5px;">
+            Ver Projetos
+        </button>
+
+    </section>
+
+
+    <!-- CRIAÇÃO DOS SLIDERS DE IMAGENS -->
+     <section class="slider">
+        <div class="slider-content">
+            <input type="radio" name="btn-radio" id="radio1" checked>
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+            <input type="radio" name="btn-radio" id="radio4">
+
+            <div class="slide-box first">
+                <img src="https://picsum.photos/id/10/800/400" alt="Montanhas">
+            </div>
+            
+            <div class="slide-box first">
+                <img src="https://picsum.photos/id/20/800/400" alt="Escrivaninha">
+            </div>
+            
+            <div class="slide-box first">
+                <img src="https://picsum.photos/id/30/800/400" alt="Caneca">
+            </div>
+
+            <div class="slide-box first">
+                <img src="https://picsum.photos/id/40/800/400" alt="Gato">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <div class="nav-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+
+     </section>
+
+
+</body>
+</html>
