@@ -93,6 +93,24 @@ rgba muda para cor preta e uma transparencia de 30%
 /* 4º IMAGEM: Margen 75% */
 #radio4:checked ~ .first { margin-left: -75%; }
 
-
+/* Estilo dos botões manuais */
+.nav-manual {
+    position: absolute;  /*posicionamento fixo em relação ao slider */
+    width: 800px; /* Mesma da largura do slider */
+    margin-top: -40px; /*Joga os botões para dentro das imagens */
+    display: flex; /*Alinhada em linha */
+    justify-content: center;
+}
+.manual-btn {
+    border: 2px solid white;
+    padding: 5px; /*Tamanho do botão */
+    border-radius: 10px; /*Arredonda a bolinha */
+    cursor: pointer;
+    margin-left: 10px; /*Distância entre as bolinhas*/
+    transition: 0.3s; /*Suaviza a mudança de cor do hover*/
+}
+.manual-btn:hover {
+    background-color: white; /*muda a cor (por completo) quando clicar*/
+}
 
 
